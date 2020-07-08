@@ -55,7 +55,7 @@ class Commands(commands.Cog):
                 await ctx.send(f"Couldn't contact e621. Error code: {Req.status_code}.\nJson: {ReqJson}")
                 return
             Post = ReqJson["posts"][0]["file"]["url"]
-            await ctx.send(f"Here is your XD so Random yiff: {Post}")
+            await ctx.send(f"Here is your {type} yiff: {Post}")
             return
 
 def setup(client):
