@@ -32,6 +32,11 @@ class Commands(commands.Cog):
     @commands.command()
     @commands.cooldown(1,3,commands.BucketType.user)
     async def yiff(self, ctx, type):
+        if not isinstance(ctx.channel, discord.DMChannel):
+                if not isinstance(ctx.channel, discord.GroupChannel):
+                    if not ctx.channel.is_nsfw():
+                        await ctx.send("Cannot be used in non-NSFW channels!")
+                        return
         if type == "random":
             headers = {"User-Agent":"Project-Luna/1.0 (API Usage by jezzar on E621)"}
             Req = requests.get(f"https://e621.net/posts.json?tags=order:random&rating:explicit&limit=1", headers=headers)
