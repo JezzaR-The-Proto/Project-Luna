@@ -25,7 +25,7 @@ class Commands(commands.Cog):
                         await ctx.send("Cannot be used in non-NSFW channels!")
                         return
         await ctx.send("Here is a list of commands:")
-        await ctx.send("```**$yiff help**: Displays this message" + "\n" + "**$yiff random**: Shows random yiff from e621" + "\n" + "You can use any command after $yiff to specify tag" + "\n" + "eg: **$yiff gay** or **$yiff wolf**```")
+        await ctx.send("```**$help**: Displays this message" + "\n" + "**$yiff random**: Shows random yiff from e621" + "\n" + "You can use any command after $yiff to specify tag" + "\n" + "eg: **$yiff gay** or **$yiff wolf**```")
         await ctx.send("I hope you have a great time :wink:")
     
     #Random e621 content
