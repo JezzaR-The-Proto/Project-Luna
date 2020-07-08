@@ -1,43 +1,67 @@
-# Project-Luna
+<h1 align="center">
+  <br>
+  <a href="https://github.com/SuperWaffleKitty/Project-Luna"><img src="https://imgur.com/zX01Tgk.png"></a>
+  <br>
+  Project Luna E621 Discord Bot
+  <br>
+</h1>
 
-Discord Bot developed using the discord-rewrite API in python. The Bots purpose in life is to respond to your commands and do as told. If it does not, please contact me and I will Frankenstein it back together. It also does porn stuff (;
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/Made%20With-Python%203.8-blue.svg?style=for-the-badge" alt="Made with Python 3.8">
+  </a>
 
+<p align="center">
+  <a href="#overview">Overview</a>
+  •
+  <a href="#Commands">Commands</a>
+  •
+  <a href="#installation">Installation</a>
+  •
+  <a href="#Authors">Authors</a>
+  •
+  <a href="#license">License</a>
+</p>
 
-## Installing
+# Overview
 
-To install, follow the steps below:
+Project Luna is a discord bot which provides E621 content using Discord Rewrite, and the E621 API.
 
-```
-wget https://github.com/SuperWaffleKitty/Project-Luna.git
-```
+* You can invite the bot by clicking [HERE](https://discordapp.com/oauth2/authorize?client_id=653789363465093132&scope=bot&permissions=117760).
 
-Running bot:
+**The default set of modules includes and is not limited to:**
 
-Make sure you have Python3 installed.
+- Randomized Image requests
+- Image Requests based on specified tags
 
-Install discord rewrite python repo:
-```
-pip install discord.py humanfriendly requests
-```
+# Commands
+- Prefix: $
+- Help: $help
 
-Run Bot:
+The help command will explain how to use the bot
 
-**Bash:**```./start.sh```
-**CMD:**```start.bat```
+# Installation
 
-Once added, the bot will announce itself to the server
+**The following platforms are officially supported:**
 
-## Built With
+- *Windows*
+- *MacOS*
+- *Most linux distros*
 
-* [Discord ReWrite](https://discordpy.readthedocs.io/en/latest/) - Bot API
+Before installing, make sure that you have Python 3.8 installed as well as all required dependencies:
+- Discord
+- humanfriendly
 
-## Authors
+If you have any questions about set-up, feel free to contact me at superwafflekitty@protonmail.com
 
-* **SuperWaffleKitty** - *Initial work* - [SuperWaffleKitty](https://github.com/SuperWaffleKitty)
-* **JezzaR-The-Proto** - *Implementing the E6 API* [JezzaR-The-Proto](https://github.com/JezzaR-The-Proto)
+# Authors
 
-## License
+* **SuperWaffleKitty** - *Initial Work* - [SuperWaffleKitty](https://github.com/SuperWaffleKitty)
+* **JezzaR-The-Proto** - *Implementing the E6 API* - [JezzaR-The-Proto](https://github.com/JezzaR-The-Proto)
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+# License
 
-## Acknowledgments
+Released under the [MIT](https://mit-license.org/) license.
+
+Luna is named after a character in the show "Helluva Boss" by
+[Vivziepop](https://www.youtube.com/user/SpindleHorse).
